@@ -431,6 +431,10 @@ footer > ul > li > a:hover {
     text-align: center;
   }
 
+  #last {
+    border-bottom: 1px solid #d8d8d8;
+  }
+
   .box-container {
     padding: 0;
     margin-left: 16px;
