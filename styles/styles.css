@@ -234,6 +234,10 @@ p > .bold {
   margin-top: 32px;
 }
 
+.start-learning .mobile-btn {
+  display: none;
+}
+
 .start-learning > h1 {
   text-align: center;
   padding: 32px 0;
@@ -393,7 +397,7 @@ footer > ul > li > a:hover {
     margin-bottom: 32px;
   }
 
-  .left {
+  .news .left {
     display: none;
   }
 
@@ -409,6 +413,7 @@ footer > ul > li > a:hover {
     padding-bottom: 0;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
+    pointer-events: none;
   }
 
   .row .normal-img {
@@ -424,5 +429,64 @@ footer > ul > li > a:hover {
   .row > .row-text {
     padding: 0;
     text-align: center;
+  }
+
+  .box-container {
+    padding: 0;
+    margin-left: 16px;
+    width: 90%;
+    grid-gap: 8px;
+    margin-bottom: 64px;
+  }
+
+  .start-learning {
+    background-color: white;
+  }
+
+  .start-learning .box {
+    display: none;
+  }
+
+  .start-learning .mobile-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #4a4a4a;
+    background-color: #d8d8d8;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .page-end > h1 {
+    margin: 0;
+    padding-bottom: 16px;
+  }
+
+  .page-end .right,
+  .page-end > .left > p,
+  .page-end > .left > h3 {
+    display: none;
+  }
+
+  .page-end .left {
+    border-right: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .page-end .left video {
+    width: 100%;
+  }
+
+  footer ul {
+    display: none;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+    padding: 16px 0;
+    margin-left: 16px;
   }
 }
