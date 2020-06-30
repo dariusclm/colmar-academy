@@ -190,10 +190,6 @@ p > .bold {
   padding-top: 0;
 }
 
-#first .image-container {
-  background-image: url(../images/information-orientation.jpg);
-}
-
 #last {
   border-bottom: none;
 }
@@ -400,13 +396,19 @@ footer > ul > li > a:hover {
   .left {
     display: none;
   }
-  .row {
-    flex-direction: column;
-    width: 100vw;
-  }
 
   .right {
-    padding-top: 16px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .row {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 
   .row .normal-img {
@@ -414,8 +416,13 @@ footer > ul > li > a:hover {
   }
 
   .row .media-image {
-    display: block;
-    height: auto;
-    width: auto;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+  }
+
+  .row > .row-text {
+    padding: 0;
+    text-align: center;
   }
 }
